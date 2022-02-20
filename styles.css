@@ -1,0 +1,85 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  
+}
+.unselectable{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+p{
+    display:inline;
+}
+.boton.span2rows{
+}
+.decimal{
+
+}
+.boton.span3col{
+    aspect-ratio:unset;
+    height: 80px;
+    grid-column: 1/3;
+}
+.flexbox{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.bordes{
+    
+    border: 2px solid black;
+}
+.boton {
+    aspect-ratio: 1;
+
+    font-size:30px;
+    border-radius: 0.5rem;
+  }
+.pantalla{
+    overflow: hidden;
+    font-size: 50px;
+    height: 75px;
+    grid-column: 1/-1;
+}
+.parentesis,
+.complejo,
+.simple,
+.resultado,
+.del,.numero{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.grid {
+    margin-top: 20px;
+    padding: 20px;
+    display: grid;
+    width: 400px;
+    height: 550px;
+  grid-template-columns: repeat(4,423fr);
+  grid-gap: 5px;
+  grid-column-gap: 10px;
+  }
+
+  
